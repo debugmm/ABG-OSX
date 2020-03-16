@@ -23,7 +23,7 @@ class WJGSplitViewController: NSSplitViewController {
     func viewsInit(){
         self.splitView.isVertical=false
         
-        let av=ContentViewController.init()
+        let av=WJGToolbarViewController.init()
         av.view.wantsLayer=true
         av.view.layer?.backgroundColor=NSColor.green.cgColor
         
