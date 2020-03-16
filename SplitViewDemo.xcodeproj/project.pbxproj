@@ -27,6 +27,7 @@
 		16B37E99241F90B400342A08 /* SubFileListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B37E98241F90B400342A08 /* SubFileListViewController.swift */; };
 		16B37E9B241F90C700342A08 /* FileAttributeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B37E9A241F90C700342A08 /* FileAttributeViewController.swift */; };
 		16B37E9D241F910100342A08 /* EntranceTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B37E9C241F910100342A08 /* EntranceTabViewController.swift */; };
+		16B37E9F241F94F900342A08 /* RootDirListSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B37E9E241F94F900342A08 /* RootDirListSplitViewController.swift */; };
 		747166425EAA2C57FCF4C1B7 /* Pods_SplitViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAE63D3DE6ABF97DEE97FD8 /* Pods_SplitViewDemo.framework */; };
 		BE9DA38FABD3598A726DB3B9 /* Pods_SplitViewDemo_SplitViewDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFAA0247953724382F82991 /* Pods_SplitViewDemo_SplitViewDemoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -75,6 +76,7 @@
 		16B37E98241F90B400342A08 /* SubFileListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubFileListViewController.swift; sourceTree = "<group>"; };
 		16B37E9A241F90C700342A08 /* FileAttributeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileAttributeViewController.swift; sourceTree = "<group>"; };
 		16B37E9C241F910100342A08 /* EntranceTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntranceTabViewController.swift; sourceTree = "<group>"; };
+		16B37E9E241F94F900342A08 /* RootDirListSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootDirListSplitViewController.swift; sourceTree = "<group>"; };
 		2072925D0FF25D7640E74A75 /* Pods-SplitViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-SplitViewDemo/Pods-SplitViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		23BB078D6AB5F23D3C5CA1C1 /* Pods-SplitViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitViewDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-SplitViewDemoTests/Pods-SplitViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		45D91D2BEF1FE69EE9E18F98 /* Pods-SplitViewDemo-SplitViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitViewDemo-SplitViewDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-SplitViewDemo-SplitViewDemoUITests/Pods-SplitViewDemo-SplitViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 		16B37E8D241F8FBF00342A08 /* RootDirList */ = {
 			isa = PBXGroup;
 			children = (
+				16B37E9E241F94F900342A08 /* RootDirListSplitViewController.swift */,
 				16B37E96241F909F00342A08 /* RootDirListViewController.swift */,
 			);
 			path = RootDirList;
@@ -507,6 +510,7 @@
 				16B37E8C241F8EF400342A08 /* HorizontalSplitViewController.swift in Sources */,
 				165FA6AE241F81D7004305E8 /* WJGSplitViewController.swift in Sources */,
 				16B37E9B241F90C700342A08 /* FileAttributeViewController.swift in Sources */,
+				16B37E9F241F94F900342A08 /* RootDirListSplitViewController.swift in Sources */,
 				16B37E99241F90B400342A08 /* SubFileListViewController.swift in Sources */,
 				16B37E88241F8D5E00342A08 /* EntranceTableViewController.swift in Sources */,
 				16B37E97241F909F00342A08 /* RootDirListViewController.swift in Sources */,

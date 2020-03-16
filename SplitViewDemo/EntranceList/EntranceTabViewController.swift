@@ -15,6 +15,25 @@ class EntranceTabViewController: NSTabViewController {
         // Do view setup here.
         self.view.wantsLayer=true
         self.view.layer?.backgroundColor=NSColor.orange.cgColor
+        
+        self.viewsInit()
     }
     
+    //MARK: -
+    func viewsInit(){
+        self.tabStyle = .unspecified
+        self.tabView.tabPosition = .none
+        self.tabView.tabViewBorderType = .none
+        
+        //文件库
+        let rootdir=RootDirListSplitViewController.init()
+        let ritem=NSTabViewItem.init(viewController: rootdir)
+        
+        //其他
+        let other=RootDirListSplitViewController.init()
+        let oitem=NSTabViewItem.init(viewController: other)
+        
+        self.addTabViewItem(ritem)
+        self.addTabViewItem(oitem)
+    }
 }
