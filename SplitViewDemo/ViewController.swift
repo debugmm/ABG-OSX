@@ -11,21 +11,16 @@ import SnapKit
 
 class ViewController: NSViewController {
         
-//    override func loadView() {
-//        self.view=NSView.init()
-//    }
+    override func loadView() {
+        self.view=NSView.init()
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        let splitV=WJGSplitViewController.init()
-        self.addChild(splitV)
-        self.view.addSubview(splitV.view)
-        
-        splitV.view.snp.makeConstraints { (make) in
-            make.edges.equalToSuperview()
-        }
+        self.view.frame=NSRect.init(x: 0, y: 0, width: 300, height: 300)
+        self.viewsInit()
     }
 
     override var representedObject: Any? {
@@ -34,6 +29,16 @@ class ViewController: NSViewController {
         }
     }
 
-
+    //MARK: -
+    func viewsInit(){
+        
+        let splitV=WJGSplitViewController.init()
+        self.addChild(splitV)
+        self.view.addSubview(splitV.view)
+        
+        splitV.view.snp.makeConstraints { (make) in
+            make.edges.equalToSuperview()
+        }
+    }
 }
 
