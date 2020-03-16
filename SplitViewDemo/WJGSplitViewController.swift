@@ -36,6 +36,7 @@ class WJGSplitViewController: NSSplitViewController {
         aitem.minimumThickness=45.0
         
         let bitem=NSSplitViewItem.init(viewController: bv)
+        bitem.minimumThickness=60.0
         
         self.addSplitViewItem(aitem)
         self.addSplitViewItem(bitem)
