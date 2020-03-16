@@ -32,6 +32,9 @@ class WJGSplitViewController: NSSplitViewController {
         bv.view.layer?.backgroundColor=NSColor.red.cgColor
         
         let aitem=NSSplitViewItem.init(viewController: av)
+        aitem.maximumThickness=45.0
+        aitem.minimumThickness=45.0
+        
         let bitem=NSSplitViewItem.init(viewController: bv)
         
         self.addSplitViewItem(aitem)
