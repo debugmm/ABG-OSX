@@ -21,6 +21,7 @@ class ViewController: NSViewController {
         // Do any additional setup after loading the view.
         let splitV=WJGSplitViewController.init()
         self.addChild(splitV)
+        self.view.addSubview(splitV.view)
         
         splitV.view.snp.makeConstraints { (make) in
             make.edges.equalToSuperview()
