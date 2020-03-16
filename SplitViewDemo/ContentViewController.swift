@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class AViewController: NSViewController {
+class ContentViewController: NSViewController {
     
     override func loadView() {
         self.view=NSView.init()

@@ -14,7 +14,7 @@
 		165FA695241F8164004305E8 /* SplitViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FA694241F8164004305E8 /* SplitViewDemoTests.swift */; };
 		165FA6A0241F8164004305E8 /* SplitViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FA69F241F8164004305E8 /* SplitViewDemoUITests.swift */; };
 		165FA6AE241F81D7004305E8 /* WJGSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FA6AD241F81D7004305E8 /* WJGSplitViewController.swift */; };
-		165FA6B0241F8219004305E8 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FA6AF241F8219004305E8 /* AViewController.swift */; };
+		165FA6B0241F8219004305E8 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FA6AF241F8219004305E8 /* ContentViewController.swift */; };
 		165FA6B2241F8649004305E8 /* WJGWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FA6B1241F8649004305E8 /* WJGWindowController.swift */; };
 		165FA6B4241F86B7004305E8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FA6B3241F86B6004305E8 /* main.swift */; };
 		747166425EAA2C57FCF4C1B7 /* Pods_SplitViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAE63D3DE6ABF97DEE97FD8 /* Pods_SplitViewDemo.framework */; };
@@ -52,7 +52,7 @@
 		165FA69F241F8164004305E8 /* SplitViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewDemoUITests.swift; sourceTree = "<group>"; };
 		165FA6A1241F8164004305E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		165FA6AD241F81D7004305E8 /* WJGSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WJGSplitViewController.swift; sourceTree = "<group>"; };
-		165FA6AF241F8219004305E8 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
+		165FA6AF241F8219004305E8 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		165FA6B1241F8649004305E8 /* WJGWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WJGWindowController.swift; sourceTree = "<group>"; };
 		165FA6B3241F86B6004305E8 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2072925D0FF25D7640E74A75 /* Pods-SplitViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-SplitViewDemo/Pods-SplitViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,7 +124,7 @@
 				165FA6B1241F8649004305E8 /* WJGWindowController.swift */,
 				165FA683241F815C004305E8 /* ViewController.swift */,
 				165FA6AD241F81D7004305E8 /* WJGSplitViewController.swift */,
-				165FA6AF241F8219004305E8 /* AViewController.swift */,
+				165FA6AF241F8219004305E8 /* ContentViewController.swift */,
 				165FA685241F8164004305E8 /* Assets.xcassets */,
 				165FA68A241F8164004305E8 /* Info.plist */,
 				165FA68B241F8164004305E8 /* SplitViewDemo.entitlements */,
@@ -410,7 +410,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				165FA6B0241F8219004305E8 /* AViewController.swift in Sources */,
+				165FA6B0241F8219004305E8 /* ContentViewController.swift in Sources */,
 				165FA684241F815C004305E8 /* ViewController.swift in Sources */,
 				165FA6B4241F86B7004305E8 /* main.swift in Sources */,
 				165FA6B2241F8649004305E8 /* WJGWindowController.swift in Sources */,
