@@ -1,5 +1,5 @@
 //
-//  EntranceListSplitViewController.swift
+//  EntranceTabViewController.swift
 //  SplitViewDemo
 //
 //  Created by wujungao on 2020/3/16.
@@ -8,17 +8,13 @@
 
 import Cocoa
 
-class EntranceListSplitViewController: NSSplitViewController {
+class EntranceTabViewController: NSTabViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
         self.view.wantsLayer=true
-        self.view.layer?.backgroundColor=NSColor.blue.cgColor
+        self.view.layer?.backgroundColor=NSColor.orange.cgColor
     }
     
-    //MARK: -
-    func viewsInit(){
-        
-    }
 }

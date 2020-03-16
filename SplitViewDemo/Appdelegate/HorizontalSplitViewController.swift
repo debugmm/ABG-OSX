@@ -13,6 +13,7 @@ class HorizontalSplitViewController: NSSplitViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
+        self.viewsInit()
     }
     
     //MARK: -
@@ -20,6 +21,16 @@ class HorizontalSplitViewController: NSSplitViewController {
         self.splitView.isVertical = true
         
         let list=EntranceListSplitViewController.init()
-        let 
+        let entab=EntranceTabViewController.init()
+        
+        let litem=NSSplitViewItem.init(viewController: list)
+        litem.minimumThickness=50.0
+        litem.maximumThickness=50.0
+        
+        let eitem=NSSplitViewItem.init(viewController: entab)
+        eitem.minimumThickness=100.0
+        
+        self.addSplitViewItem(litem)
+        self.addSplitViewItem(eitem)
     }
 }
