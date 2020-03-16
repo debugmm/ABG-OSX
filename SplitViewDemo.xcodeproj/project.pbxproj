@@ -134,6 +134,9 @@
 				165FA6B6241F88E7004305E8 /* Appdelegate */,
 				165FA6B9241F892B004305E8 /* ToolBar */,
 				16B37E84241F8C6A00342A08 /* EntranceList */,
+				16B37E8D241F8FBF00342A08 /* RootDir */,
+				16B37E8E241F8FE000342A08 /* SubFileList */,
+				16B37E8F241F8FED00342A08 /* FileAttribute */,
 				165FA6B5241F88D0004305E8 /* Helper */,
 				165FA685241F8164004305E8 /* Assets.xcassets */,
 				165FA68A241F8164004305E8 /* Info.plist */,
@@ -198,6 +201,27 @@
 				16B37E89241F8D7400342A08 /* SettingViewController.swift */,
 			);
 			path = EntranceList;
+			sourceTree = "<group>";
+		};
+		16B37E8D241F8FBF00342A08 /* RootDir */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RootDir;
+			sourceTree = "<group>";
+		};
+		16B37E8E241F8FE000342A08 /* SubFileList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SubFileList;
+			sourceTree = "<group>";
+		};
+		16B37E8F241F8FED00342A08 /* FileAttribute */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FileAttribute;
 			sourceTree = "<group>";
 		};
 		3EF07AD5EAD9106BB2E75743 /* Pods */ = {

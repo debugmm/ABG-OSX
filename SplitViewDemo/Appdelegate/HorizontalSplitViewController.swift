@@ -15,4 +15,11 @@ class HorizontalSplitViewController: NSSplitViewController {
         // Do view setup here.
     }
     
+    //MARK: -
+    func viewsInit(){
+        self.splitView.isVertical = true
+        
+        let list=EntranceListSplitViewController.init()
+        let 
+    }
 }
