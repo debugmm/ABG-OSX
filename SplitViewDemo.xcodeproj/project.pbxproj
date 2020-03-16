@@ -123,9 +123,9 @@
 		165FA680241F815C004305E8 /* SplitViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				165FA6B9241F892B004305E8 /* ToolBar */,
 				165FA6B6241F88E7004305E8 /* Appdelegate */,
-				165FA6AD241F81D7004305E8 /* WJGSplitViewController.swift */,
+				165FA6B9241F892B004305E8 /* ToolBar */,
+				16B37E84241F8C6A00342A08 /* EntranceList */,
 				165FA6B5241F88D0004305E8 /* Helper */,
 				165FA685241F8164004305E8 /* Assets.xcassets */,
 				165FA68A241F8164004305E8 /* Info.plist */,
@@ -167,6 +167,7 @@
 				165FA681241F815C004305E8 /* AppDelegate.swift */,
 				165FA6B1241F8649004305E8 /* WJGWindowController.swift */,
 				165FA683241F815C004305E8 /* ViewController.swift */,
+				165FA6AD241F81D7004305E8 /* WJGSplitViewController.swift */,
 			);
 			path = Appdelegate;
 			sourceTree = "<group>";
@@ -178,6 +179,13 @@
 				165FA6BC241F8A46004305E8 /* PageAToolbarViewController.swift */,
 			);
 			path = ToolBar;
+			sourceTree = "<group>";
+		};
+		16B37E84241F8C6A00342A08 /* EntranceList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EntranceList;
 			sourceTree = "<group>";
 		};
 		3EF07AD5EAD9106BB2E75743 /* Pods */ = {
