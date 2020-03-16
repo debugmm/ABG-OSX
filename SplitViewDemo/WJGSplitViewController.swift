@@ -27,7 +27,7 @@ class WJGSplitViewController: NSSplitViewController {
         av.view.wantsLayer=true
         av.view.layer?.backgroundColor=NSColor.green.cgColor
         
-        let bv=ContentViewController.init()
+        let bv=WJGContentViewController.init()
         bv.view.wantsLayer=true
         bv.view.layer?.backgroundColor=NSColor.red.cgColor
         

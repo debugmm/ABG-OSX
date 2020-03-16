@@ -13,6 +13,19 @@ class WJGToolbarViewController: NSTabViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
+        self.viewsInit()
     }
     
+    //MARK: -
+    func viewsInit(){
+        self.tabStyle = .unspecified
+        self.tabView.tabPosition = .none
+        self.tabView.tabViewBorderType = .none
+        
+        let pageA=PageAToolbarViewController.init()
+        
+        let item=NSTabViewItem.init(viewController: pageA)
+        
+        self.addTabViewItem(item)
+    }
 }

@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class ContentViewController: NSViewController {
+class WJGContentViewController: NSViewController {
     
     override func loadView() {
         self.view=NSView.init()

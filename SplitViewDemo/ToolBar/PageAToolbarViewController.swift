@@ -8,6 +8,13 @@
 
 import Cocoa
 
-class PageAToolbarViewController: ContentViewController {
+class PageAToolbarViewController: WJGContentViewController {
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do view setup here.
+        self.view.wantsLayer=true
+        self.view.layer?.backgroundColor=NSColor.yellow.cgColor
+    }
+    
 }
