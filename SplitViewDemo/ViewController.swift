@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import SnapKit
 
 class ViewController: NSViewController {
         
@@ -18,6 +19,12 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let splitV=WJGSplitViewController.init()
+        self.addChild(splitV)
+        
+        splitV.view.snp.makeConstraints { (make) in
+            make.edges.equalToSuperview()
+        }
     }
 
     override var representedObject: Any? {
