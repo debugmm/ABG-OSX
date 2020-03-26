@@ -1,0 +1,76 @@
+# How Use .gitignore file for all git repository
+################################################
+# 0. clear cache:
+#    cd git repository directory
+#    git rm --cached *.xcuserstate
+#    git rm --cached *.xcuserdata
+#    git rm -r --cached . #force rm all cached files,fix some already added files.
+
+# 1. create .gitignore file in user home
+
+# 2. edite the .gitigonore,just add some you do not want files and folds
+
+# 3. save it and config git global like this in terminal:"git config --global core.excludesfile ~/.gitignore"
+
+######################
+# OS generated files #
+.DS_Store
+.DS_Store?
+
+._*
+
+.Spotlight-V100
+
+.Trashes
+.git
+
+ehthumbs.db
+Thumbs.db
+
+###################################
+# xcode about user personer files #
+*.pbxuser
+
+xcuserdata/
+xcuserdata/*
+xcschemes
+xcschemes/
+xcschemes/*
+/xcschemes/
+/xcuserdata/
+
+xcuserdata
+
+*.xccheckout
+*.xcuserstate
+xcdebugger/
+
+Pods
+Pods/
+Pods/*
+
+######################
+# Logs and databases #
+*.log
+*.sql
+*.sqlite
+
+
+############
+# Packages #
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+###################
+# Compiled Source #
+*.com
+*.dll
+*.exe
+*.o
+*.so
