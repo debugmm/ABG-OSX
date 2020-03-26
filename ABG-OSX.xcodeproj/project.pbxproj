@@ -58,16 +58,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		165FA67E241F815C004305E8 /* SplitViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		165FA67E241F815C004305E8 /* ABG-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ABG-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		165FA681241F815C004305E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		165FA683241F815C004305E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		165FA685241F8164004305E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		165FA68A241F8164004305E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		165FA68B241F8164004305E8 /* SplitViewDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SplitViewDemo.entitlements; sourceTree = "<group>"; };
-		165FA690241F8164004305E8 /* SplitViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		165FA68B241F8164004305E8 /* ABG-OSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ABG-OSX.entitlements"; sourceTree = "<group>"; };
+		165FA690241F8164004305E8 /* ABG-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ABG-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		165FA694241F8164004305E8 /* SplitViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewDemoTests.swift; sourceTree = "<group>"; };
 		165FA696241F8164004305E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		165FA69B241F8164004305E8 /* SplitViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		165FA69B241F8164004305E8 /* ABG-OSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ABG-OSXUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		165FA69F241F8164004305E8 /* SplitViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewDemoUITests.swift; sourceTree = "<group>"; };
 		165FA6A1241F8164004305E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		165FA6AD241F81D7004305E8 /* VerticalSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSplitViewController.swift; sourceTree = "<group>"; };
@@ -135,9 +135,9 @@
 		165FA675241F815C004305E8 = {
 			isa = PBXGroup;
 			children = (
-				165FA680241F815C004305E8 /* SplitViewDemo */,
-				165FA693241F8164004305E8 /* SplitViewDemoTests */,
-				165FA69E241F8164004305E8 /* SplitViewDemoUITests */,
+				165FA680241F815C004305E8 /* ABG-OSX */,
+				165FA693241F8164004305E8 /* ABG-OSXTests */,
+				165FA69E241F8164004305E8 /* ABG-OSXUITests */,
 				165FA67F241F815C004305E8 /* Products */,
 				3EF07AD5EAD9106BB2E75743 /* Pods */,
 				E196D4687162331EEDA61FC8 /* Frameworks */,
@@ -147,14 +147,14 @@
 		165FA67F241F815C004305E8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				165FA67E241F815C004305E8 /* SplitViewDemo.app */,
-				165FA690241F8164004305E8 /* SplitViewDemoTests.xctest */,
-				165FA69B241F8164004305E8 /* SplitViewDemoUITests.xctest */,
+				165FA67E241F815C004305E8 /* ABG-OSX.app */,
+				165FA690241F8164004305E8 /* ABG-OSXTests.xctest */,
+				165FA69B241F8164004305E8 /* ABG-OSXUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		165FA680241F815C004305E8 /* SplitViewDemo */ = {
+		165FA680241F815C004305E8 /* ABG-OSX */ = {
 			isa = PBXGroup;
 			children = (
 				165FA6B6241F88E7004305E8 /* Appdelegate */,
@@ -168,27 +168,27 @@
 				165FA6B5241F88D0004305E8 /* Helper */,
 				165FA685241F8164004305E8 /* Assets.xcassets */,
 				165FA68A241F8164004305E8 /* Info.plist */,
-				165FA68B241F8164004305E8 /* SplitViewDemo.entitlements */,
+				165FA68B241F8164004305E8 /* ABG-OSX.entitlements */,
 			);
-			path = SplitViewDemo;
+			path = "ABG-OSX";
 			sourceTree = "<group>";
 		};
-		165FA693241F8164004305E8 /* SplitViewDemoTests */ = {
+		165FA693241F8164004305E8 /* ABG-OSXTests */ = {
 			isa = PBXGroup;
 			children = (
 				165FA694241F8164004305E8 /* SplitViewDemoTests.swift */,
 				165FA696241F8164004305E8 /* Info.plist */,
 			);
-			path = SplitViewDemoTests;
+			path = "ABG-OSXTests";
 			sourceTree = "<group>";
 		};
-		165FA69E241F8164004305E8 /* SplitViewDemoUITests */ = {
+		165FA69E241F8164004305E8 /* ABG-OSXUITests */ = {
 			isa = PBXGroup;
 			children = (
 				165FA69F241F8164004305E8 /* SplitViewDemoUITests.swift */,
 				165FA6A1241F8164004305E8 /* Info.plist */,
 			);
-			path = SplitViewDemoUITests;
+			path = "ABG-OSXUITests";
 			sourceTree = "<group>";
 		};
 		165FA6B5241F88D0004305E8 /* Helper */ = {
@@ -305,9 +305,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		165FA67D241F815C004305E8 /* SplitViewDemo */ = {
+		165FA67D241F815C004305E8 /* ABG-OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 165FA6A4241F8164004305E8 /* Build configuration list for PBXNativeTarget "SplitViewDemo" */;
+			buildConfigurationList = 165FA6A4241F8164004305E8 /* Build configuration list for PBXNativeTarget "ABG-OSX" */;
 			buildPhases = (
 				A5C3E7DFA579C233DA426B1D /* [CP] Check Pods Manifest.lock */,
 				165FA67A241F815C004305E8 /* Sources */,
@@ -319,14 +319,14 @@
 			);
 			dependencies = (
 			);
-			name = SplitViewDemo;
+			name = "ABG-OSX";
 			productName = SplitViewDemo;
-			productReference = 165FA67E241F815C004305E8 /* SplitViewDemo.app */;
+			productReference = 165FA67E241F815C004305E8 /* ABG-OSX.app */;
 			productType = "com.apple.product-type.application";
 		};
-		165FA68F241F8164004305E8 /* SplitViewDemoTests */ = {
+		165FA68F241F8164004305E8 /* ABG-OSXTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 165FA6A7241F8164004305E8 /* Build configuration list for PBXNativeTarget "SplitViewDemoTests" */;
+			buildConfigurationList = 165FA6A7241F8164004305E8 /* Build configuration list for PBXNativeTarget "ABG-OSXTests" */;
 			buildPhases = (
 				5F20AC9818CDF98933770D2D /* [CP] Check Pods Manifest.lock */,
 				165FA68C241F8164004305E8 /* Sources */,
@@ -338,14 +338,14 @@
 			dependencies = (
 				165FA692241F8164004305E8 /* PBXTargetDependency */,
 			);
-			name = SplitViewDemoTests;
+			name = "ABG-OSXTests";
 			productName = SplitViewDemoTests;
-			productReference = 165FA690241F8164004305E8 /* SplitViewDemoTests.xctest */;
+			productReference = 165FA690241F8164004305E8 /* ABG-OSXTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		165FA69A241F8164004305E8 /* SplitViewDemoUITests */ = {
+		165FA69A241F8164004305E8 /* ABG-OSXUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 165FA6AA241F8164004305E8 /* Build configuration list for PBXNativeTarget "SplitViewDemoUITests" */;
+			buildConfigurationList = 165FA6AA241F8164004305E8 /* Build configuration list for PBXNativeTarget "ABG-OSXUITests" */;
 			buildPhases = (
 				6F3D60AA1E52CBE35E51074D /* [CP] Check Pods Manifest.lock */,
 				165FA697241F8164004305E8 /* Sources */,
@@ -358,9 +358,9 @@
 			dependencies = (
 				165FA69D241F8164004305E8 /* PBXTargetDependency */,
 			);
-			name = SplitViewDemoUITests;
+			name = "ABG-OSXUITests";
 			productName = SplitViewDemoUITests;
-			productReference = 165FA69B241F8164004305E8 /* SplitViewDemoUITests.xctest */;
+			productReference = 165FA69B241F8164004305E8 /* ABG-OSXUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -386,7 +386,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 165FA679241F815C004305E8 /* Build configuration list for PBXProject "SplitViewDemo" */;
+			buildConfigurationList = 165FA679241F815C004305E8 /* Build configuration list for PBXProject "ABG-OSX" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -399,9 +399,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				165FA67D241F815C004305E8 /* SplitViewDemo */,
-				165FA68F241F8164004305E8 /* SplitViewDemoTests */,
-				165FA69A241F8164004305E8 /* SplitViewDemoUITests */,
+				165FA67D241F815C004305E8 /* ABG-OSX */,
+				165FA68F241F8164004305E8 /* ABG-OSXTests */,
+				165FA69A241F8164004305E8 /* ABG-OSXUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -588,12 +588,12 @@
 /* Begin PBXTargetDependency section */
 		165FA692241F8164004305E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 165FA67D241F815C004305E8 /* SplitViewDemo */;
+			target = 165FA67D241F815C004305E8 /* ABG-OSX */;
 			targetProxy = 165FA691241F8164004305E8 /* PBXContainerItemProxy */;
 		};
 		165FA69D241F8164004305E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 165FA67D241F815C004305E8 /* SplitViewDemo */;
+			target = 165FA67D241F815C004305E8 /* ABG-OSX */;
 			targetProxy = 165FA69C241F8164004305E8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -717,7 +717,7 @@
 			baseConfigurationReference = 2072925D0FF25D7640E74A75 /* Pods-SplitViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = SplitViewDemo/SplitViewDemo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "SplitViewDemo/ABG-OSX.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = SGP5WX546J;
@@ -728,7 +728,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = proj.demo.SplitViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "proj.demo.ABG-OSX";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -739,7 +739,7 @@
 			baseConfigurationReference = A6692670802154F5E9D6AFAB /* Pods-SplitViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = SplitViewDemo/SplitViewDemo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "SplitViewDemo/ABG-OSX.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = SGP5WX546J;
@@ -750,7 +750,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = proj.demo.SplitViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "proj.demo.ABG-OSX";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -775,7 +775,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = proj.demo.SplitViewDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitViewDemo.app/Contents/MacOS/SplitViewDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABG-OSX.app/Contents/MacOS/ABG-OSX";
 			};
 			name = Debug;
 		};
@@ -798,7 +798,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = proj.demo.SplitViewDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitViewDemo.app/Contents/MacOS/SplitViewDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABG-OSX.app/Contents/MacOS/ABG-OSX";
 			};
 			name = Release;
 		};
@@ -847,7 +847,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		165FA679241F815C004305E8 /* Build configuration list for PBXProject "SplitViewDemo" */ = {
+		165FA679241F815C004305E8 /* Build configuration list for PBXProject "ABG-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				165FA6A2241F8164004305E8 /* Debug */,
@@ -856,7 +856,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		165FA6A4241F8164004305E8 /* Build configuration list for PBXNativeTarget "SplitViewDemo" */ = {
+		165FA6A4241F8164004305E8 /* Build configuration list for PBXNativeTarget "ABG-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				165FA6A5241F8164004305E8 /* Debug */,
@@ -865,7 +865,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		165FA6A7241F8164004305E8 /* Build configuration list for PBXNativeTarget "SplitViewDemoTests" */ = {
+		165FA6A7241F8164004305E8 /* Build configuration list for PBXNativeTarget "ABG-OSXTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				165FA6A8241F8164004305E8 /* Debug */,
@@ -874,7 +874,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		165FA6AA241F8164004305E8 /* Build configuration list for PBXNativeTarget "SplitViewDemoUITests" */ = {
+		165FA6AA241F8164004305E8 /* Build configuration list for PBXNativeTarget "ABG-OSXUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				165FA6AB241F8164004305E8 /* Debug */,
