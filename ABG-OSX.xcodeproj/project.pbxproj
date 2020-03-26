@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05C1EF20FD8DC00223D78E45 /* Pods_SplitViewDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB83CC691D4E54F3CD7BF344 /* Pods_SplitViewDemoTests.framework */; };
 		165FA682241F815C004305E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FA681241F815C004305E8 /* AppDelegate.swift */; };
 		165FA684241F815C004305E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FA683241F815C004305E8 /* ViewController.swift */; };
 		165FA686241F8164004305E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165FA685241F8164004305E8 /* Assets.xcassets */; };
-		165FA695241F8164004305E8 /* SplitViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FA694241F8164004305E8 /* SplitViewDemoTests.swift */; };
-		165FA6A0241F8164004305E8 /* SplitViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FA69F241F8164004305E8 /* SplitViewDemoUITests.swift */; };
+		165FA695241F8164004305E8 /* ABG-OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FA694241F8164004305E8 /* ABG-OSXTests.swift */; };
+		165FA6A0241F8164004305E8 /* ABG-OSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FA69F241F8164004305E8 /* ABG-OSXUITests.swift */; };
 		165FA6AE241F81D7004305E8 /* VerticalSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FA6AD241F81D7004305E8 /* VerticalSplitViewController.swift */; };
 		165FA6B0241F8219004305E8 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FA6AF241F8219004305E8 /* ContentViewController.swift */; };
 		165FA6B2241F8649004305E8 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165FA6B1241F8649004305E8 /* MainWindowController.swift */; };
@@ -36,8 +35,9 @@
 		16B37E9F241F94F900342A08 /* RootDirListSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B37E9E241F94F900342A08 /* RootDirListSplitViewController.swift */; };
 		16B37EA3241F976700342A08 /* BaseSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B37EA2241F976700342A08 /* BaseSplitViewController.swift */; };
 		16B37EA5241F977E00342A08 /* BaseSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B37EA4241F977E00342A08 /* BaseSplitView.swift */; };
-		747166425EAA2C57FCF4C1B7 /* Pods_SplitViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAE63D3DE6ABF97DEE97FD8 /* Pods_SplitViewDemo.framework */; };
-		BE9DA38FABD3598A726DB3B9 /* Pods_SplitViewDemo_SplitViewDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFAA0247953724382F82991 /* Pods_SplitViewDemo_SplitViewDemoUITests.framework */; };
+		B044602D6964B52218966D0C /* Pods_ABG_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385A94F3EEB2BE629E9EA0AE /* Pods_ABG_OSX.framework */; };
+		E6A09CB80CBFFD503A8FC698 /* Pods_ABG_OSX_ABG_OSXUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D1AF261BBB501B0A43013AB /* Pods_ABG_OSX_ABG_OSXUITests.framework */; };
+		FB50EC1278371030C759E6A9 /* Pods_ABG_OSXTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51E8D93D961F5CC7CA0B1FC /* Pods_ABG_OSXTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,14 +46,14 @@
 			containerPortal = 165FA676241F815C004305E8 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 165FA67D241F815C004305E8;
-			remoteInfo = SplitViewDemo;
+			remoteInfo = "ABG-OSX";
 		};
 		165FA69C241F8164004305E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 165FA676241F815C004305E8 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 165FA67D241F815C004305E8;
-			remoteInfo = SplitViewDemo;
+			remoteInfo = "ABG-OSX";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -65,10 +65,10 @@
 		165FA68A241F8164004305E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		165FA68B241F8164004305E8 /* ABG-OSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ABG-OSX.entitlements"; sourceTree = "<group>"; };
 		165FA690241F8164004305E8 /* ABG-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ABG-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		165FA694241F8164004305E8 /* SplitViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewDemoTests.swift; sourceTree = "<group>"; };
+		165FA694241F8164004305E8 /* ABG-OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ABG-OSXTests.swift"; sourceTree = "<group>"; };
 		165FA696241F8164004305E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		165FA69B241F8164004305E8 /* ABG-OSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ABG-OSXUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		165FA69F241F8164004305E8 /* SplitViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewDemoUITests.swift; sourceTree = "<group>"; };
+		165FA69F241F8164004305E8 /* ABG-OSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ABG-OSXUITests.swift"; sourceTree = "<group>"; };
 		165FA6A1241F8164004305E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		165FA6AD241F81D7004305E8 /* VerticalSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSplitViewController.swift; sourceTree = "<group>"; };
 		165FA6AF241F8219004305E8 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
@@ -93,15 +93,15 @@
 		16B37E9E241F94F900342A08 /* RootDirListSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootDirListSplitViewController.swift; sourceTree = "<group>"; };
 		16B37EA2241F976700342A08 /* BaseSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSplitViewController.swift; sourceTree = "<group>"; };
 		16B37EA4241F977E00342A08 /* BaseSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSplitView.swift; sourceTree = "<group>"; };
-		2072925D0FF25D7640E74A75 /* Pods-SplitViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-SplitViewDemo/Pods-SplitViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		23BB078D6AB5F23D3C5CA1C1 /* Pods-SplitViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitViewDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-SplitViewDemoTests/Pods-SplitViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		45D91D2BEF1FE69EE9E18F98 /* Pods-SplitViewDemo-SplitViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitViewDemo-SplitViewDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-SplitViewDemo-SplitViewDemoUITests/Pods-SplitViewDemo-SplitViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		5BAE63D3DE6ABF97DEE97FD8 /* Pods_SplitViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplitViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		96B3CAED54D96CDF513E4EF3 /* Pods-SplitViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitViewDemoTests.release.xcconfig"; path = "Target Support Files/Pods-SplitViewDemoTests/Pods-SplitViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		A6692670802154F5E9D6AFAB /* Pods-SplitViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitViewDemo.release.xcconfig"; path = "Target Support Files/Pods-SplitViewDemo/Pods-SplitViewDemo.release.xcconfig"; sourceTree = "<group>"; };
-		DB83CC691D4E54F3CD7BF344 /* Pods_SplitViewDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplitViewDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDFAA0247953724382F82991 /* Pods_SplitViewDemo_SplitViewDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplitViewDemo_SplitViewDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F65DE76D4ED2A9CEC71BEB1C /* Pods-SplitViewDemo-SplitViewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitViewDemo-SplitViewDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-SplitViewDemo-SplitViewDemoUITests/Pods-SplitViewDemo-SplitViewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1D1AF261BBB501B0A43013AB /* Pods_ABG_OSX_ABG_OSXUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABG_OSX_ABG_OSXUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2072925D0FF25D7640E74A75 /* Pods-ABG-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABG-OSX.debug.xcconfig"; path = "Target Support Files/Pods-ABG-OSX/Pods-ABG-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		23BB078D6AB5F23D3C5CA1C1 /* Pods-ABG-OSXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABG-OSXTests.debug.xcconfig"; path = "Target Support Files/Pods-ABG-OSXTests/Pods-ABG-OSXTests.debug.xcconfig"; sourceTree = "<group>"; };
+		385A94F3EEB2BE629E9EA0AE /* Pods_ABG_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABG_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45D91D2BEF1FE69EE9E18F98 /* Pods-ABG-OSX-ABG-OSXUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABG-OSX-ABG-OSXUITests.debug.xcconfig"; path = "Target Support Files/Pods-ABG-OSX-ABG-OSXUITests/Pods-ABG-OSX-ABG-OSXUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		96B3CAED54D96CDF513E4EF3 /* Pods-ABG-OSXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABG-OSXTests.release.xcconfig"; path = "Target Support Files/Pods-ABG-OSXTests/Pods-ABG-OSXTests.release.xcconfig"; sourceTree = "<group>"; };
+		A6692670802154F5E9D6AFAB /* Pods-ABG-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABG-OSX.release.xcconfig"; path = "Target Support Files/Pods-ABG-OSX/Pods-ABG-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		E51E8D93D961F5CC7CA0B1FC /* Pods_ABG_OSXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABG_OSXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F65DE76D4ED2A9CEC71BEB1C /* Pods-ABG-OSX-ABG-OSXUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABG-OSX-ABG-OSXUITests.release.xcconfig"; path = "Target Support Files/Pods-ABG-OSX-ABG-OSXUITests/Pods-ABG-OSX-ABG-OSXUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				747166425EAA2C57FCF4C1B7 /* Pods_SplitViewDemo.framework in Frameworks */,
+				B044602D6964B52218966D0C /* Pods_ABG_OSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05C1EF20FD8DC00223D78E45 /* Pods_SplitViewDemoTests.framework in Frameworks */,
+				FB50EC1278371030C759E6A9 /* Pods_ABG_OSXTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE9DA38FABD3598A726DB3B9 /* Pods_SplitViewDemo_SplitViewDemoUITests.framework in Frameworks */,
+				E6A09CB80CBFFD503A8FC698 /* Pods_ABG_OSX_ABG_OSXUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +176,7 @@
 		165FA693241F8164004305E8 /* ABG-OSXTests */ = {
 			isa = PBXGroup;
 			children = (
-				165FA694241F8164004305E8 /* SplitViewDemoTests.swift */,
+				165FA694241F8164004305E8 /* ABG-OSXTests.swift */,
 				165FA696241F8164004305E8 /* Info.plist */,
 			);
 			path = "ABG-OSXTests";
@@ -185,7 +185,7 @@
 		165FA69E241F8164004305E8 /* ABG-OSXUITests */ = {
 			isa = PBXGroup;
 			children = (
-				165FA69F241F8164004305E8 /* SplitViewDemoUITests.swift */,
+				165FA69F241F8164004305E8 /* ABG-OSXUITests.swift */,
 				165FA6A1241F8164004305E8 /* Info.plist */,
 			);
 			path = "ABG-OSXUITests";
@@ -282,12 +282,12 @@
 		3EF07AD5EAD9106BB2E75743 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2072925D0FF25D7640E74A75 /* Pods-SplitViewDemo.debug.xcconfig */,
-				A6692670802154F5E9D6AFAB /* Pods-SplitViewDemo.release.xcconfig */,
-				45D91D2BEF1FE69EE9E18F98 /* Pods-SplitViewDemo-SplitViewDemoUITests.debug.xcconfig */,
-				F65DE76D4ED2A9CEC71BEB1C /* Pods-SplitViewDemo-SplitViewDemoUITests.release.xcconfig */,
-				23BB078D6AB5F23D3C5CA1C1 /* Pods-SplitViewDemoTests.debug.xcconfig */,
-				96B3CAED54D96CDF513E4EF3 /* Pods-SplitViewDemoTests.release.xcconfig */,
+				2072925D0FF25D7640E74A75 /* Pods-ABG-OSX.debug.xcconfig */,
+				A6692670802154F5E9D6AFAB /* Pods-ABG-OSX.release.xcconfig */,
+				45D91D2BEF1FE69EE9E18F98 /* Pods-ABG-OSX-ABG-OSXUITests.debug.xcconfig */,
+				F65DE76D4ED2A9CEC71BEB1C /* Pods-ABG-OSX-ABG-OSXUITests.release.xcconfig */,
+				23BB078D6AB5F23D3C5CA1C1 /* Pods-ABG-OSXTests.debug.xcconfig */,
+				96B3CAED54D96CDF513E4EF3 /* Pods-ABG-OSXTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -295,9 +295,9 @@
 		E196D4687162331EEDA61FC8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5BAE63D3DE6ABF97DEE97FD8 /* Pods_SplitViewDemo.framework */,
-				EDFAA0247953724382F82991 /* Pods_SplitViewDemo_SplitViewDemoUITests.framework */,
-				DB83CC691D4E54F3CD7BF344 /* Pods_SplitViewDemoTests.framework */,
+				385A94F3EEB2BE629E9EA0AE /* Pods_ABG_OSX.framework */,
+				1D1AF261BBB501B0A43013AB /* Pods_ABG_OSX_ABG_OSXUITests.framework */,
+				E51E8D93D961F5CC7CA0B1FC /* Pods_ABG_OSXTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -320,7 +320,7 @@
 			dependencies = (
 			);
 			name = "ABG-OSX";
-			productName = SplitViewDemo;
+			productName = "ABG-OSX";
 			productReference = 165FA67E241F815C004305E8 /* ABG-OSX.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -339,7 +339,7 @@
 				165FA692241F8164004305E8 /* PBXTargetDependency */,
 			);
 			name = "ABG-OSXTests";
-			productName = SplitViewDemoTests;
+			productName = "ABG-OSXTests";
 			productReference = 165FA690241F8164004305E8 /* ABG-OSXTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -359,7 +359,7 @@
 				165FA69D241F8164004305E8 /* PBXTargetDependency */,
 			);
 			name = "ABG-OSXUITests";
-			productName = SplitViewDemoUITests;
+			productName = "ABG-OSXUITests";
 			productReference = 165FA69B241F8164004305E8 /* ABG-OSXUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -438,15 +438,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SplitViewDemo-SplitViewDemoUITests/Pods-SplitViewDemo-SplitViewDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ABG-OSX-ABG-OSXUITests/Pods-ABG-OSX-ABG-OSXUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SplitViewDemo-SplitViewDemoUITests/Pods-SplitViewDemo-SplitViewDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ABG-OSX-ABG-OSXUITests/Pods-ABG-OSX-ABG-OSXUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SplitViewDemo-SplitViewDemoUITests/Pods-SplitViewDemo-SplitViewDemoUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABG-OSX-ABG-OSXUITests/Pods-ABG-OSX-ABG-OSXUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5F20AC9818CDF98933770D2D /* [CP] Check Pods Manifest.lock */ = {
@@ -464,7 +464,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SplitViewDemoTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ABG-OSXTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -486,7 +486,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SplitViewDemo-SplitViewDemoUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ABG-OSX-ABG-OSXUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -508,7 +508,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SplitViewDemo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ABG-OSX-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -521,15 +521,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SplitViewDemo/Pods-SplitViewDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ABG-OSX/Pods-ABG-OSX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SplitViewDemo/Pods-SplitViewDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ABG-OSX/Pods-ABG-OSX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SplitViewDemo/Pods-SplitViewDemo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABG-OSX/Pods-ABG-OSX-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -571,7 +571,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				165FA695241F8164004305E8 /* SplitViewDemoTests.swift in Sources */,
+				165FA695241F8164004305E8 /* ABG-OSXTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,7 +579,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				165FA6A0241F8164004305E8 /* SplitViewDemoUITests.swift in Sources */,
+				165FA6A0241F8164004305E8 /* ABG-OSXUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,15 +714,15 @@
 		};
 		165FA6A5241F8164004305E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2072925D0FF25D7640E74A75 /* Pods-SplitViewDemo.debug.xcconfig */;
+			baseConfigurationReference = 2072925D0FF25D7640E74A75 /* Pods-ABG-OSX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "SplitViewDemo/ABG-OSX.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "ABG-OSX/ABG-OSX.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = SGP5WX546J;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = SplitViewDemo/Info.plist;
+				INFOPLIST_FILE = "ABG-OSX/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -736,15 +736,15 @@
 		};
 		165FA6A6241F8164004305E8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6692670802154F5E9D6AFAB /* Pods-SplitViewDemo.release.xcconfig */;
+			baseConfigurationReference = A6692670802154F5E9D6AFAB /* Pods-ABG-OSX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "SplitViewDemo/ABG-OSX.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "ABG-OSX/ABG-OSX.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = SGP5WX546J;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = SplitViewDemo/Info.plist;
+				INFOPLIST_FILE = "ABG-OSX/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -758,21 +758,21 @@
 		};
 		165FA6A8241F8164004305E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23BB078D6AB5F23D3C5CA1C1 /* Pods-SplitViewDemoTests.debug.xcconfig */;
+			baseConfigurationReference = 23BB078D6AB5F23D3C5CA1C1 /* Pods-ABG-OSXTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = SGP5WX546J;
-				INFOPLIST_FILE = SplitViewDemoTests/Info.plist;
+				INFOPLIST_FILE = "ABG-OSXTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = proj.demo.SplitViewDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "proj.demo.ABG-OSXTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABG-OSX.app/Contents/MacOS/ABG-OSX";
@@ -781,21 +781,21 @@
 		};
 		165FA6A9241F8164004305E8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96B3CAED54D96CDF513E4EF3 /* Pods-SplitViewDemoTests.release.xcconfig */;
+			baseConfigurationReference = 96B3CAED54D96CDF513E4EF3 /* Pods-ABG-OSXTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = SGP5WX546J;
-				INFOPLIST_FILE = SplitViewDemoTests/Info.plist;
+				INFOPLIST_FILE = "ABG-OSXTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = proj.demo.SplitViewDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "proj.demo.ABG-OSXTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABG-OSX.app/Contents/MacOS/ABG-OSX";
@@ -804,43 +804,43 @@
 		};
 		165FA6AB241F8164004305E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45D91D2BEF1FE69EE9E18F98 /* Pods-SplitViewDemo-SplitViewDemoUITests.debug.xcconfig */;
+			baseConfigurationReference = 45D91D2BEF1FE69EE9E18F98 /* Pods-ABG-OSX-ABG-OSXUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = SGP5WX546J;
-				INFOPLIST_FILE = SplitViewDemoUITests/Info.plist;
+				INFOPLIST_FILE = "ABG-OSXUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = proj.demo.SplitViewDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "proj.demo.ABG-OSXUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = SplitViewDemo;
+				TEST_TARGET_NAME = "ABG-OSX";
 			};
 			name = Debug;
 		};
 		165FA6AC241F8164004305E8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F65DE76D4ED2A9CEC71BEB1C /* Pods-SplitViewDemo-SplitViewDemoUITests.release.xcconfig */;
+			baseConfigurationReference = F65DE76D4ED2A9CEC71BEB1C /* Pods-ABG-OSX-ABG-OSXUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = SGP5WX546J;
-				INFOPLIST_FILE = SplitViewDemoUITests/Info.plist;
+				INFOPLIST_FILE = "ABG-OSXUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = proj.demo.SplitViewDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "proj.demo.ABG-OSXUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = SplitViewDemo;
+				TEST_TARGET_NAME = "ABG-OSX";
 			};
 			name = Release;
 		};
