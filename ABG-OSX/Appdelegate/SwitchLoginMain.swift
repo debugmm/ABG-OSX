@@ -30,8 +30,7 @@ class SwitchLoginMain{
         self.shouldTerminate=true
         
         self.loginWindowController?.window?.center()
-        self.loginWindowController?.showWindow(nil)
-        self.loginWindowController?.window?.orderFront(nil)
+        self.loginWindowController?.window?.makeKeyAndOrderFront(nil)
         
         self.mainWindowController?.window?.orderOut(nil)
         self.mainWindowController?.close()
@@ -45,8 +44,7 @@ class SwitchLoginMain{
         self.shouldTerminate=false
         
         self.mainWindowController?.window?.center()
-        self.mainWindowController?.showWindow(nil)
-        self.mainWindowController?.window?.orderFront(nil)
+        self.mainWindowController?.window?.makeKeyAndOrderFront(nil)
         
         self.loginWindowController?.window?.orderOut(nil)
         self.loginWindowController?.close()
@@ -59,6 +57,10 @@ class SwitchLoginMain{
     //MARK: -
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
         return self.shouldTerminate ?? true
+    }
+    
+    func orderFrontMainWindow(){
+        self.mainWindowController?.window?.makeKeyAndOrderFront(nil)
     }
 }
 
