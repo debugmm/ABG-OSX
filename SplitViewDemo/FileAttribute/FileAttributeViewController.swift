@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class FileAttributeViewController: WJGContentViewController {
+class FileAttributeViewController: ContentViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

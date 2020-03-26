@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class EntranceTableViewController: WJGContentViewController {
+class EntranceTableViewController: ContentViewController {
     
     var scrollView:NSScrollView=NSScrollView.init()
     var tableView:NSTableView=NSTableView.init()

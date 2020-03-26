@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class WJGWindowController: NSWindowController {
+class MainWindowController: NSWindowController {
     
     //配置登录窗口属性
     convenience init(){
@@ -36,4 +36,4 @@ class WJGWindowController: NSWindowController {
     }
 }
 
-extension WJGWindowController:NSWindowDelegate{}
+extension MainWindowController:NSWindowDelegate{}

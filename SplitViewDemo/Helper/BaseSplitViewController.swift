@@ -8,12 +8,12 @@
 
 import Cocoa
 
-class WJGBaseSplitViewController: NSSplitViewController {
+class BaseSplitViewController: NSSplitViewController {
     
     override init(nibName nibNameOrNil: NSNib.Name?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
         
-        self.splitView=WJGBaseSplitView.init()
+        self.splitView=BaseSplitView.init()
     }
     
     required init?(coder: NSCoder) {

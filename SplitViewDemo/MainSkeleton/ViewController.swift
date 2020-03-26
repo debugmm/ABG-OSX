@@ -32,7 +32,7 @@ class ViewController: NSViewController {
     //MARK: -
     func viewsInit(){
         
-        let splitV=WJGSplitViewController.init()
+        let splitV=VerticalSplitViewController.init()
         self.addChild(splitV)
         self.view.addSubview(splitV.view)
         

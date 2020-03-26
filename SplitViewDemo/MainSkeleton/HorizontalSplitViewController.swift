@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class HorizontalSplitViewController: WJGBaseSplitViewController {
+class HorizontalSplitViewController: BaseSplitViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

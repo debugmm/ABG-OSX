@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class WJGSplitViewController: WJGBaseSplitViewController {
+class VerticalSplitViewController: BaseSplitViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +23,7 @@ class WJGSplitViewController: WJGBaseSplitViewController {
     func viewsInit(){
         self.splitView.isVertical=false
         
-        let av=WJGToolbarViewController.init()
+        let av=ToolbarViewController.init()
         av.view.wantsLayer=true
         av.view.layer?.backgroundColor=NSColor.green.cgColor
         

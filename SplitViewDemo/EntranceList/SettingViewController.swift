@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class SettingViewController: WJGContentViewController {
+class SettingViewController: ContentViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

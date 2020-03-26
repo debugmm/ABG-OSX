@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class WJGBaseSplitView: NSSplitView {
+class BaseSplitView: NSSplitView {
 
     override var dividerThickness:CGFloat {
         return 0.0

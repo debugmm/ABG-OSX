@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class SubFileListViewController: WJGContentViewController {
+class SubFileListViewController: ContentViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

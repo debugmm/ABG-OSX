@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class RootDirListViewController: WJGContentViewController {
+class RootDirListViewController: ContentViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

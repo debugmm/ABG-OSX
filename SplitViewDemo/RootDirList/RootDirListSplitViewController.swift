@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class RootDirListSplitViewController: WJGBaseSplitViewController {
+class RootDirListSplitViewController: BaseSplitViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

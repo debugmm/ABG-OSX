@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class PageAToolbarViewController: WJGContentViewController {
+class PageAToolbarViewController: ContentViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

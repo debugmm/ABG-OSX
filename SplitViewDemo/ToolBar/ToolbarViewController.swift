@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class WJGToolbarViewController: NSTabViewController {
+class ToolbarViewController: NSTabViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

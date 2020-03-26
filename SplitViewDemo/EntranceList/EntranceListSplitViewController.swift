@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class EntranceListSplitViewController: WJGBaseSplitViewController {
+class EntranceListSplitViewController: BaseSplitViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

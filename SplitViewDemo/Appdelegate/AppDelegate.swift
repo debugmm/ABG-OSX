@@ -10,17 +10,21 @@ import Cocoa
 
 //@NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
-    var windowController:WJGWindowController=WJGWindowController.init()
+    //登录切换
+    var switchLoginMain:SwitchLoginMain=SwitchLoginMain.init()
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
-        self.windowController.window?.center()
-        self.windowController.showWindow(nil)
+        //居中显示
+        self.switchLoginMain.login()
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
+    }
+    
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+        return self.switchLoginMain.applicationShouldTerminateAfterLastWindowClosed(sender)
     }
 }
 
