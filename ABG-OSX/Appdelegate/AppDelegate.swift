@@ -27,6 +27,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         return self.switchLoginMain.applicationShouldTerminateAfterLastWindowClosed(sender)
     }
     
+    //处理用户直接点击dock事件
     func applicationShouldHandleReopen(_ sender: NSApplication, hasVisibleWindows flag: Bool) -> Bool {
         
         if(!flag){
