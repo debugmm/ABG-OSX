@@ -34,7 +34,7 @@ class LoginViewController: ContentViewController {
     
     //MARK: - button actions
     @objc func gotoMain(sender:NSButton){
-        
+        NotificationCenter.default.post(Notification.SwitchToMainNotification)
     }
 }
 

@@ -17,8 +17,8 @@ class SwitchLoginMain{
     private var shouldTerminate:Bool?
     
     init() {
-        NotificationCenter.default.addObserver(self, selector: #selector(switchToMain(noti:)), name: NSNotification.SwitchToMainNotificationName, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(switchToLogin(noti:)), name: NSNotification.SwitchToLoginNotificationName, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(switchToMain(noti:)), name:Notification.SwitchToMainNotificationName, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(switchToLogin(noti:)), name: Notification.SwitchToLoginNotificationName, object: nil)
     }
     
     //MARK: - login-main
@@ -62,11 +62,18 @@ class SwitchLoginMain{
     }
 }
 
-extension NSNotification {
-    static var SwitchToMainNotificationName:NSNotification.Name{
-        return NSNotification.Name(rawValue: "switch.to.main.notification")
+extension Notification {
+    static var SwitchToMainNotification:Notification{
+        return Notification.init(name: Notification.SwitchToMainNotificationName)
     }
-    static var SwitchToLoginNotificationName:NSNotification.Name{
-        return NSNotification.Name(rawValue: "switch.to.login.notification")
+    static var SwitchToLoginNotification:Notification{
+        return Notification.init(name: Notification.SwitchToLoginNotificationName)
+    }
+    
+    static var SwitchToMainNotificationName:Notification.Name{
+        return Notification.Name.init(rawValue: "switch.to.main.notification")
+    }
+    static var SwitchToLoginNotificationName:Notification.Name{
+        return Notification.Name.init(rawValue: "switch.to.login.notification")
     }
 }

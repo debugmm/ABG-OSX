@@ -21,7 +21,7 @@ class MainWindowController: NSWindowController {
         
 //        window.standardWindowButton(.miniaturizeButton)?.isHidden=true
 //        window.standardWindowButton(.zoomButton)?.isHidden=true
-        window.isMovableByWindowBackground=true
+//        window.isMovableByWindowBackground=true
         
         self.init(window: window)
         
