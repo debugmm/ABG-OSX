@@ -22,6 +22,9 @@
 		16702938242C2C6000E746DA /* SwitchLoginMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16702937242C2C6000E746DA /* SwitchLoginMain.swift */; };
 		1670293A242C2CD400E746DA /* LoginWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16702939242C2CD400E746DA /* LoginWindowController.swift */; };
 		1670293D242C2F9800E746DA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1670293C242C2F9800E746DA /* LoginViewController.swift */; };
+		1670293F242C44A800E746DA /* TestPresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1670293E242C44A800E746DA /* TestPresentViewController.swift */; };
+		16702941242C455B00E746DA /* BaseEventBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16702940242C455B00E746DA /* BaseEventBlockView.swift */; };
+		16702943242C471700E746DA /* BaseViewControllerPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16702942242C471700E746DA /* BaseViewControllerPresentationAnimator.swift */; };
 		16B37E86241F8CF700342A08 /* EntranceListSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B37E85241F8CF700342A08 /* EntranceListSplitViewController.swift */; };
 		16B37E88241F8D5E00342A08 /* EntranceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B37E87241F8D5E00342A08 /* EntranceTableViewController.swift */; };
 		16B37E8A241F8D7400342A08 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B37E89241F8D7400342A08 /* SettingViewController.swift */; };
@@ -76,6 +79,9 @@
 		16702937242C2C6000E746DA /* SwitchLoginMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchLoginMain.swift; sourceTree = "<group>"; };
 		16702939242C2CD400E746DA /* LoginWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWindowController.swift; sourceTree = "<group>"; };
 		1670293C242C2F9800E746DA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1670293E242C44A800E746DA /* TestPresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPresentViewController.swift; sourceTree = "<group>"; };
+		16702940242C455B00E746DA /* BaseEventBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseEventBlockView.swift; sourceTree = "<group>"; };
+		16702942242C471700E746DA /* BaseViewControllerPresentationAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewControllerPresentationAnimator.swift; sourceTree = "<group>"; };
 		16B37E85241F8CF700342A08 /* EntranceListSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntranceListSplitViewController.swift; sourceTree = "<group>"; };
 		16B37E87241F8D5E00342A08 /* EntranceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntranceTableViewController.swift; sourceTree = "<group>"; };
 		16B37E89241F8D7400342A08 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
@@ -191,6 +197,8 @@
 				165FA6AF241F8219004305E8 /* ContentViewController.swift */,
 				16B37EA2241F976700342A08 /* BaseSplitViewController.swift */,
 				16B37EA4241F977E00342A08 /* BaseSplitView.swift */,
+				16702940242C455B00E746DA /* BaseEventBlockView.swift */,
+				16702942242C471700E746DA /* BaseViewControllerPresentationAnimator.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 			children = (
 				16702939242C2CD400E746DA /* LoginWindowController.swift */,
 				1670293C242C2F9800E746DA /* LoginViewController.swift */,
+				1670293E242C44A800E746DA /* TestPresentViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -537,8 +546,11 @@
 				165FA684241F815C004305E8 /* ViewController.swift in Sources */,
 				16B37E86241F8CF700342A08 /* EntranceListSplitViewController.swift in Sources */,
 				165FA6B4241F86B7004305E8 /* main.swift in Sources */,
+				16702941242C455B00E746DA /* BaseEventBlockView.swift in Sources */,
 				165FA6B2241F8649004305E8 /* MainWindowController.swift in Sources */,
 				165FA682241F815C004305E8 /* AppDelegate.swift in Sources */,
+				1670293F242C44A800E746DA /* TestPresentViewController.swift in Sources */,
+				16702943242C471700E746DA /* BaseViewControllerPresentationAnimator.swift in Sources */,
 				16B37E8C241F8EF400342A08 /* HorizontalSplitViewController.swift in Sources */,
 				1670293D242C2F9800E746DA /* LoginViewController.swift in Sources */,
 				165FA6AE241F81D7004305E8 /* VerticalSplitViewController.swift in Sources */,

@@ -26,7 +26,7 @@ class MainWindowController: NSWindowController {
         self.init(window: window)
         
         self.window?.delegate=self
-        self.window?.isReleasedWhenClosed=true
+        self.window?.isReleasedWhenClosed=false
     }
     
     override func windowDidLoad() {
@@ -36,4 +36,6 @@ class MainWindowController: NSWindowController {
     }
 }
 
-extension MainWindowController:NSWindowDelegate{}
+extension MainWindowController:NSWindowDelegate{
+    
+}

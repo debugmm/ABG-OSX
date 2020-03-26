@@ -23,18 +23,30 @@ class LoginViewController: ContentViewController {
         let btn=NSButton.init(title: "Go to Main", target: self, action: #selector(gotoMain(sender:)))
         btn.setButtonType(.momentaryChange)
         
+        let presentBtn=NSButton.init(title: "Present ViewController", target: self, action: #selector(presentViewController(sender:)))
+        presentBtn.setButtonType(.momentaryChange)
+        
         self.view.addSubview(btn)
+        self.view.addSubview(presentBtn)
         
         btn.snp.makeConstraints { (make) in
-            make.width.equalTo(50)
-            make.height.equalTo(30)
-            make.center.equalToSuperview()
+            make.centerX.equalToSuperview()
+            make.centerY.equalToSuperview().offset(35)
+        }
+        
+        presentBtn.snp.makeConstraints { (make) in
+            make.centerX.equalToSuperview()
+            make.centerY.equalToSuperview().offset(-35)
         }
     }
     
     //MARK: - button actions
     @objc func gotoMain(sender:NSButton){
         NotificationCenter.default.post(Notification.SwitchToMainNotification)
+    }
+    @objc func presentViewController(sender:NSButton){
+        let v=TestPresentViewController.init()
+        self.present(v, animator: BaseViewControllerPresentationAnimator.init())
     }
 }
 
