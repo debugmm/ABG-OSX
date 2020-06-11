@@ -3,7 +3,7 @@
 //  SecurityPlanet
 //
 //  Created by wujungao on 2020/2/25.
-//  Copyright © 2020 安全星球. All rights reserved.
+//  Copyright © 2020 wujungao. All rights reserved.
 //
 
 import AppKit
